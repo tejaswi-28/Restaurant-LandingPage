@@ -1,0 +1,86 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    position: sticky;
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 390px;
+    padding: 3px 60px;
+}
+#home::before{
+    height: 480px;
+}
+#home p{
+    font-size: 13px;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+}
+#services.box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+/* Client Section */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+/* Contact section */
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.1rem;
+}
+#contact-box button {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 14px;
+    margin: 5px 30px;
+    text-shadow: 0 0 25px rgb(123, 0, 255);
+    background-color: rgb(240, 235, 245);
+    opacity: 0.9;
+    border: 2px solid black;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
